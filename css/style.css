@@ -98,7 +98,7 @@ ol {
 }
 
 .spad {
-	padding-top: 105px;
+	padding-top: 40px;
 	padding-bottom: 105px;
 }
 
@@ -898,6 +898,14 @@ div.product-item {
 	padding: 20px;
 }
 
+.order-1 .product-item {
+	padding: 0px;
+}
+
+.order-1 .product-item .pi-text {
+	padding-top: 0px;
+}
+
 .product-item .pi-pic {
 	position: relative;
 	display: block;
@@ -1663,7 +1671,7 @@ div.product-item {
 	height: 100%;
 	left: 0;
 	top: 0;
-	border: 2px solid #f51167;
+	border: 2px solid #ea091f;
 	z-index: 1;
 }
 
