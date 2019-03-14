@@ -1174,7 +1174,7 @@ div.product-item {
 .footer-widget ul {
 	list-style: none;
 	float: left;
-	margin-right: 37px;
+	margin-right: 45px;
 }
 
 .footer-widget ul:last-child {
@@ -2472,7 +2472,7 @@ div.product-item {
 		margin: 0 2px 10px;
 	}
 	.footer-widget ul {
-		margin-right: 25px;
+		margin-right: 45px;
 	}
 	.social-links {
 		text-align: center;
