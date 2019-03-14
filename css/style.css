@@ -1095,6 +1095,23 @@ div.product-item {
 
 }
 
+.stock-section {
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+
+.stock-section .section-title {
+	padding-bottom: 40px;
+}
+
+.stock-section .product-item {
+	padding: 0px;
+}
+
+.stock-section .product-item .pi-text {
+	height: 120px;	
+}
+
 /* ----------------
   Banner section
 ---------------------*/
@@ -2420,6 +2437,14 @@ div.product-item {
 		height: 400px;
 		margin-top: 70px;
 	}
+
+	.stock-section .section-title {
+		padding-bottom: 0px;
+	}
+
+	.stock-section .stock-title {
+		padding-top: 60px;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -2523,6 +2548,19 @@ div.product-item {
 		right: 0;
 		top: 0;
 	}
+
+	.stock-section .product-item .pi-text {
+		height: 150px;
+		text-overflow: hidden;
+	}
+
+	.stock-section .stock-title {
+		padding: 40px;
+	}
+	
+	.stock-section .section-title {
+		padding: 0px;
+	}
 }
 
 /* Small Mobile :320px. */
@@ -2584,11 +2622,34 @@ div.product-item {
 	.about_inner-text {
 		text-align: left;
 	}
+
+	.stock-section .stock-title {
+		padding-top: 40px;
+	}
+
+	.stock-section .section-title {
+		padding: 0px;
+	}
+
+	.stock-section .product-item .pi-text {
+		height: 150px;
+		text-overflow: hidden;
+	}
+
 }
 
 @media only screen and (max-width: 320px) {
 	.top-header__menu li a {
 		margin-right: 3px;
+	}
+
+	.stock-section .product-item .pi-text {
+		height: 150px;
+		text-overflow: hidden;
+	}
+
+	.stock-section .section-title {
+		padding: 0px;
 	}
 }
 

@@ -220,6 +220,18 @@ $(window).on('load', function() {
 
 	$('.product-pic-zoom').zoom();
 
+	// function truncateText(selector, maxLength) {
+	// 	var element = document.querySelectorAll(selector),
+	// 		truncated = element.innerText;
+	
+	// 	if (truncated.length > maxLength) {
+	// 		truncated = truncated.substr(0,maxLength) + '...';
+	// 	}
+	// 	return truncated;
+	// }
+	
+	// document.querySelectorAll('.stock-section .product-item .pi-text').innerText = truncateText('.stock-section .product-item .pi-text', 200);
+
 
 
 })(jQuery);
