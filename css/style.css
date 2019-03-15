@@ -334,7 +334,7 @@ ol {
 
 table {
 	border-collapse: unset;
-	border-color: #f8f7f7;
+	border-color:black;
 	}
 
 /*------------------
@@ -1107,6 +1107,25 @@ div.product-item {
 
 .price-table {
 	padding-top: 20px;
+}
+
+.price-table p {
+	color: #403c3c;
+	line-height: 1;
+}
+
+.service .product-item {
+	padding: 20px;
+}
+
+.service .product-item .pi-pic a img:hover {
+	transition: ease-in-out .5s;
+	transform: scale(1.1)
+}
+
+.service-section {
+	padding-top: 30px;
+	padding-bottom: 70px;
 }
 
 
