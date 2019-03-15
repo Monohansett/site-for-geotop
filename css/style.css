@@ -368,7 +368,6 @@ table {
 .search-btn {
 	position: absolute;
 	height: 100%;
-	/* right: 18px; */
 	top: -5px;
 	margin-left: 35px;
 	font-size: 39px;
@@ -447,7 +446,6 @@ div.header-nav {
 .main-menu {
 	list-style: none;
 	margin-left: 150px;
-	/* background: #403c3c; */
 }
 
 .main-menu li {
@@ -486,9 +484,6 @@ div.header-nav {
 	margin-top: 0;
 }
 
-/* .main-menu li:hover>a {
-	color: black;
-} */
 
 .main-menu .sub-menu {
 	position: absolute;
@@ -551,27 +546,6 @@ div.header-nav {
 .main-menu li a:hover {
 	color: #ea091f;
 }
-
-/* .top-header__menu li > a::after {
-	background-color: black;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    left:20%;
-    position:absolute;
-    -webkit-transition: width .3s ease-in-out;
-    -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    transform:translateX(-20%);
-}
-
-.top-header__menu li a:hover:after
-.top-header__menu li a:focus:after {
-	width: 100%;
-} */
 
 /* ----------------
   Features
@@ -1109,8 +1083,28 @@ div.product-item {
 }
 
 .stock-section .product-item .pi-text {
-	height: 120px;	
+	height: 120px;
+	/* text-align: justify;	 */
 }
+
+.stock-section .product-item .pi-text h5:hover {
+	color: #403c3c;
+}
+
+
+.product-filter-section .news-item .pi-pic img {
+	width: 100%;
+	max-width: 1370px;
+	height: 400px;
+}
+
+.product-filter-section .news-item .pi-text p {
+	font-weight: normal;
+	color: #403c3c;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
 
 /* ----------------
   Banner section
@@ -1857,6 +1851,14 @@ div.product-item {
 .related-product-section .section-title h2 {
 	font-size: 24px;
 	margin-bottom: 60px;
+}
+
+.product-filter-section .product-item .pi-text h5 {
+	font-size: 16px;
+}
+
+.product-filter-section .product-item .pi-text h5:hover {
+	color: #404040;
 }
 
 /* ----------------
